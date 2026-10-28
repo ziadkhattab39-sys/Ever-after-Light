@@ -133,7 +133,7 @@ a { color: var(--green-teal); }
 .hero-art { justify-self: end; width: min(100%, 410px); }
 .arch-frame { padding: 10px; border: 2px solid var(--warm-sand); border-radius: 999px 999px 12px 12px; }
 .arch-frame img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 999px 999px 6px 6px; background: var(--green-teal); }
-.art-caption { margin-top: var(--s-3); font-size: 0.78rem; color: rgba(255, 249, 237, 0.7); text-align: center; }
+.art-caption { margin-top: var(--s-3); font-size: 0.78rem; color: rgba(255, 249, 237, 0.7); text-align: center; word-spacing: 5px; font-family: "Palatino Linotype", "Book Antiqua", serif; font-style: italic; letter-spacing: 1px;;}
 
 .section { padding-block: var(--s-8); }
 .section-head { max-width: 36rem; margin-bottom: var(--s-6); }
@@ -393,7 +393,7 @@ a.slot-thumb:focus-visible { outline-offset: 2px; }
 @keyframes twinkle { 0%, 100% { transform: scale(1) rotate(0); opacity: 1; } 50% { transform: scale(1.25) rotate(20deg); opacity: 0.7; } }
 
 /* gem cards: illustration-less art, clamped description, logo panel */
-.gem-text { display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+.gem-text { display: -webkit-box; line-clamp: 4 ;-webkit-line-clamp: 4 ; -webkit-box-orient: vertical; overflow: hidden; }
 .gem-art { display: grid; place-items: center; width: 100%; aspect-ratio: 4 / 3; background: linear-gradient(160deg, #123B3A 0%, #1D514B 50%, #6e6483 130%); color: var(--fw-gold); }
 .gem-card.is-locked .gem-art { filter: saturate(0.6) brightness(0.9); }
 .mini-card .mini-art { display: grid; place-items: center; margin: 0; aspect-ratio: 3 / 4; border-radius: var(--radius); border: 1px solid #A99BB8; background: linear-gradient(160deg, #123B3A 0%, #1D514B 50%, #6e6483 130%); color: var(--fw-gold); font-family: var(--font-sans); font-size: 2rem; font-weight: 400; }
