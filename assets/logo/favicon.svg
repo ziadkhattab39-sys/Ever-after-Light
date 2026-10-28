@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Ever Afterlight icon">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#174E49"/>
+      <stop offset="0.45" stop-color="#24665A"/>
+      <stop offset="1" stop-color="#F6E7C5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="1" r="0.6">
+      <stop offset="0" stop-color="#FFF9ED" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#FFF9ED" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="inner">
+      <path d="M52 214 V112 A48 48 0 0 1 148 112 V214 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- outer arch frame -->
+  <path d="M38 224 V112 A62 62 0 0 1 162 112 V224 Z" fill="#174E49"/>
+  <!-- sand keyline -->
+  <path d="M46 224 V112 A54 54 0 0 1 154 112 V224" fill="none" stroke="#D9C29B" stroke-width="1.6"/>
+
+  <!-- scene inside the arch -->
+  <g clip-path="url(#inner)">
+    <rect x="52" y="60" width="96" height="156" fill="url(#sky)"/>
+    <rect x="52" y="60" width="96" height="156" fill="url(#glow)"/>
+
+    <!-- campus silhouette -->
+    <g fill="#174E49">
+      <!-- trees -->
+      <circle cx="66" cy="190" r="15"/>
+      <circle cx="80" cy="196" r="12"/>
+      <circle cx="134" cy="190" r="15"/>
+      <circle cx="120" cy="196" r="12"/>
+      <!-- main hall -->
+      <rect x="78" y="176" width="44" height="40"/>
+      <!-- clock tower -->
+      <rect x="93" y="146" width="14" height="34"/>
+      <path d="M91 146 L100 130 L109 146 Z"/>
+    </g>
+    <!-- tower clock + windows -->
+    <circle cx="100" cy="156" r="3.2" fill="#F6E7C5"/>
+    <g fill="#F6E7C5" opacity="0.85">
+      <rect x="83" y="184" width="4" height="8" rx="2"/>
+      <rect x="92" y="184" width="4" height="8" rx="2"/>
+      <rect x="104" y="184" width="4" height="8" rx="2"/>
+      <rect x="113" y="184" width="4" height="8" rx="2"/>
+    </g>
+    <!-- path leading in -->
+    <path d="M84 216 L116 216 L103 192 L97 192 Z" fill="#FFF9ED"/>
+  </g>
+
+  <!-- compass star: the "light" -->
+  <g fill="#FFF9ED">
+    <path d="M100 68 L104.5 88 L124 92 L104.5 96 L100 118 L95.5 96 L76 92 L95.5 88 Z"/>
+    <path d="M100 92 L112 80 L100 92 L112 104 L100 92 L88 104 L100 92 L88 80 Z" stroke="#FFF9ED" stroke-width="1.6" stroke-linejoin="round"/>
+  </g>
+  <circle cx="100" cy="92" r="3" fill="#174E49"/>
+
+  <!-- ground line -->
+  <rect x="30" y="224" width="140" height="3" rx="1.5" fill="#D9C29B"/>
+</svg>

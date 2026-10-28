@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Album — Ever Afterlight</title>
+  <meta name="description" content="Your personal album of moments collected around campus.">
+  <meta name="theme-color" content="#174E49">
+  <link rel="icon" type="image/svg+xml" href="assets/logo/favicon.svg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Ever Afterlight, home">
+        <img class="logo-full" src="assets/logo/ever-afterlight-horizontal.svg" alt="">
+        <img class="logo-icon" src="assets/logo/ever-afterlight-icon.svg" alt="">
+      </a>
+      <nav class="main-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="challenges.html">Challenges</a></li>
+          <li><a href="gems.html">Hidden Gems</a></li>
+          <li><a href="album.html" aria-current="page">My Album</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container">
+      <div class="page-head">
+        <p class="eyebrow">My Album</p>
+        <h1>Your Story, in Moments</h1>
+        <p class="lead">Every photo you add to a challenge, and every hidden gem you collect, kept together on this device.</p>
+        <div class="page-meta">
+          <p class="progress-text" id="album-count" aria-live="polite"></p>
+        </div>
+      </div>
+
+      <!-- Genuinely collected content -->
+      <section class="album-section" aria-labelledby="mine-title">
+        <div class="album-section-head">
+          <h2 id="mine-title">Your collection <span class="chip chip-yours">Yours</span></h2>
+        </div>
+
+        <div class="empty" id="empty-state" hidden>
+          <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" aria-hidden="true">
+            <rect x="8" y="14" width="48" height="38" rx="4"/>
+            <path d="M8 40l14-12 12 10 8-6 14 12"/>
+            <circle cx="43" cy="26" r="4"/>
+          </svg>
+          <h3>Nothing here yet</h3>
+          <p>Add a photo to any challenge, or discover a hidden gem and add your own picture of it. It will show up here.</p>
+          <a class="btn btn-primary" href="challenges.html">Start a challenge</a>
+        </div>
+
+        <div class="album-grid" id="mine-grid">
+          <!-- rendered by js/album.js -->
+        </div>
+      </section>
+    </div>
+
+    <div class="container reset-row">
+      <button type="button" class="link-btn" id="reset-btn">Reset my progress</button>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-brand">Ever Afterlight</p>
+      <p class="fine">Every place holds a story.</p>
+    </div>
+  </footer>
+
+  <script src="data/game-config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/photos.js"></script>
+  <script src="js/photo-ui.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/progress.js"></script>
+  <script src="js/album.js"></script>
+</body>
+</html>

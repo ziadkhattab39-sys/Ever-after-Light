@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hidden Gems — Ever Afterlight</title>
+  <meta name="description" content="Discover the unexpected: hidden places, gentle riddles and small photo challenges.">
+  <meta name="theme-color" content="#174E49">
+  <link rel="icon" type="image/svg+xml" href="assets/logo/favicon.svg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Ever Afterlight, home">
+        <img class="logo-full" src="assets/logo/ever-afterlight-horizontal.svg" alt="">
+        <img class="logo-icon" src="assets/logo/ever-afterlight-icon.svg" alt="">
+      </a>
+      <nav class="main-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="challenges.html">Challenges</a></li>
+          <li><a href="gems.html" aria-current="page">Hidden Gems</a></li>
+          <li><a href="album.html">My Album</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container">
+      <div class="page-head">
+        <p class="eyebrow">Hidden Gems</p>
+        <h1>Discover the Unexpected</h1>
+        <p class="lead">Every hidden gem comes with three riddles. Read them, wander, and tap “I’ve found it” when you get there. More gems unlock as you complete photo challenges, and the last one is not a place at all.</p>
+        <div class="page-meta">
+          <p class="progress-text" id="progress-text" aria-live="polite"></p>
+          <p class="unlock-line" id="unlock-line"></p>
+        </div>
+      </div>
+
+      <ul class="gem-grid" id="gem-grid" aria-label="Hidden gems">
+        <!-- cards are rendered by js/gems.js -->
+      </ul>
+    </div>
+  </main>
+
+  <!-- Gem view -->
+  <dialog class="gem-dialog" id="gem-dialog" aria-labelledby="dlg-title">
+    <button type="button" class="dlg-close" id="dlg-close" aria-label="Close">×</button>
+    <div class="dlg-grid">
+      <div class="dlg-media">
+        <img id="dlg-img" src="" alt="">
+        <span class="chip chip-sample" id="dlg-illus">Illustration</span>
+      </div>
+      <div class="dlg-body">
+        <div class="dlg-top">
+          <span class="eyebrow" id="dlg-cat"></span>
+          <span class="chip" id="dlg-chip"></span>
+        </div>
+        <h2 id="dlg-title"></h2>
+
+        <!-- Step 1: riddles -->
+        <section id="riddle-panel" aria-label="Riddles">
+          <p class="label">The riddles</p>
+          <div class="riddle-tabs" id="riddle-tabs" role="group" aria-label="Choose a riddle"></div>
+          <p class="riddle-style" id="riddle-style"></p>
+          <p class="riddle" id="riddle-q" aria-live="polite"></p>
+          <div class="hint-list" id="hint-list" aria-live="polite"></div>
+          <div class="form-actions">
+            <button type="button" class="btn btn-primary" id="found-btn">I’ve found it</button>
+            <span class="revelio-wrap" id="revelio-wrap">
+              <button type="button" class="btn btn-ghost btn-revelio" id="revelio-btn">Revelio <span aria-hidden="true">✦</span></button>
+            </span>
+          </div>
+          <p class="small" id="found-note"></p>
+        </section>
+
+        <!-- Step 2: found + your photo -->
+        <section id="found-panel" hidden aria-label="Discovered">
+          <div class="success-banner" id="found-banner" tabindex="-1"></div>
+          <p class="story" id="found-story" style="margin-top: 1rem;"></p>
+          <div class="photo-card" style="margin-top: 1.25rem;">
+            <p class="label" id="photo-label">Your photo</p>
+            <p class="task" id="photo-task"></p>
+            <ul class="photo-grid single" id="gem-photo"></ul>
+            <div class="form-actions" style="margin-top: 0.25rem;">
+              <button type="button" class="btn btn-primary" id="collect-btn" disabled>Add to my album</button>
+              <a class="btn btn-ghost" id="album-link" href="album.html" hidden>View my album</a>
+            </div>
+            <p class="small" id="collect-note"></p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </dialog>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-brand">Ever Afterlight</p>
+      <p class="fine">Every place holds a story.</p>
+    </div>
+  </footer>
+
+  <script src="data/game-config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/photos.js"></script>
+  <script src="js/photo-ui.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/progress.js"></script>
+  <script src="js/gems.js"></script>
+</body>
+</html>

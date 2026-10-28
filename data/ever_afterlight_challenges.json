@@ -1,0 +1,107 @@
+[
+  {
+    "id": "CH01",
+    "name": "Marks of Many Minds",
+    "category": "Campus Exploration · Collection",
+    "description": "Every faculty leaves its own mark on the university, whether through a name, an emblem, or a symbol displayed on its buildings. Explore the campus and discover ten different faculty logos. Each one is a small piece of the university's identity, and together they reveal how many different worlds exist within the same place. Keep your eyes open: some marks might be easier to find than others.",
+    "goal": "Discover 10 distinct faculty logos."
+  },
+  {
+    "id": "CH02",
+    "name": "The Garden's Many Faces",
+    "category": "Nature · Collection",
+    "description": "A campus garden is more than a patch of green. Hidden among its leaves and pathways are flowers with different colors, shapes, and personalities. Search across campus for ten different flower species, taking time to notice what makes each one unique. Some may stand out immediately, while others may hide in plain sight, waiting for a curious explorer to notice them.",
+    "goal": "Find 10 different flower species across campus."
+  },
+  {
+    "id": "CH03",
+    "name": "Nature's Secret Geometry",
+    "category": "Observation · Photography",
+    "description": "Nature has a quiet talent for creating shapes without drawing a single line. A leaf might resemble a heart, branches might form a natural arch, or the arrangement of petals might reveal an unexpected pattern. Look beyond the obvious and search for shapes formed by greenery around campus. The challenge isn't to find something artificial, but to notice the little designs nature has already made.",
+    "goal": "Discover and photograph natural shapes formed by leaves, plants, or other greenery."
+  },
+  {
+    "id": "CH04",
+    "name": "A Thousand Little Colors",
+    "category": "Nature · Detail Hunt",
+    "description": "Not every discovery needs to be big to be extraordinary. The tiny blossoms of Lantana camara gather into colorful clusters, often blending shades of yellow, orange, pink, and red. Look closely at these little blooms and search for different color combinations. What seems like a single flower from a distance can become a whole palette of tiny details when you get closer.",
+    "goal": "Find and capture distinct color variations within Lantana flower clusters."
+  },
+  {
+    "id": "CH05",
+    "name": "Echoes of a Daisy",
+    "category": "Nature · Visual Discovery",
+    "description": "Some flowers seem to share the same design, yet each has its own way of wearing it. From African daisies to orange blooms and the familiar sunflower, explore the different flowers that share a daisy-like form. Compare their petals, centers, colors, and proportions. The closer you look, the more differences you begin to see between flowers that first appeared almost identical.",
+    "goal": "Find and photograph different daisy-like flower forms around campus."
+  },
+  {
+    "id": "CH06",
+    "name": "Nature in Alignment",
+    "category": "Symmetry · Photography",
+    "description": "Nature has its own sense of balance, hidden in the way leaves grow, overlap, and arrange themselves. Search for a cluster of leaves that creates a satisfying symmetrical composition, whether its pattern follows a vertical line, a horizontal line, or another natural arrangement. Frame the shot carefully and capture the quiet order hidden within the greenery.",
+    "goal": "Find and photograph a cluster of leaves that creates a satisfying symmetrical composition."
+  },
+  {
+    "id": "CH07",
+    "name": "The First Light",
+    "category": "Campus Photography · Sunrise",
+    "description": "Before the campus fills with footsteps and familiar voices, the first light of day paints it in a different atmosphere. Capture the university as it welcomes the morning, from the golden glow touching its buildings to the soft light filtering through its trees. Find a moment that feels like the beginning of something, and preserve the campus in its quietest, freshest light.",
+    "goal": "Photograph the university in the early morning, capturing the first sunlight on its buildings or trees."
+  },
+  {
+    "id": "CH08",
+    "name": "Where the Light Rests",
+    "category": "Campus Photography · Sunset",
+    "description": "As the day draws to a close, the campus takes on another identity. Familiar buildings and pathways become silhouettes, while the fading sunlight leaves behind warm colors and long shadows. Find a view that captures this final transformation and preserve the campus as the day slowly gives way to evening. Sometimes, the most memorable scenes appear just before the light disappears.",
+    "goal": "Photograph the campus at sunset, capturing its changing atmosphere, warm colors, silhouettes, or long shadows."
+  },
+  {
+    "id": "CH09",
+    "name": "A Place of Your Own",
+    "category": "Personal Choice · Architecture · Photography",
+    "description": "Every campus has a building that catches someone's attention. It might be the architecture, the memories associated with it, the people who gather around it, or simply the feeling it gives you when you pass by. Choose your favorite building on campus and capture it in a way that reflects what makes it special to you. There's no expected answer here; the choice, the perspective, and the story behind the photograph are entirely yours.",
+    "goal": "Choose and photograph your favorite building on campus in a way that reflects why it is special to you."
+  },
+  {
+    "id": "CH10",
+    "name": "Somewhere I Belong",
+    "category": "Personal Choice · Memories · Photography",
+    "description": "Somewhere between the busy pathways and familiar buildings, there may be a spot that feels different from everywhere else. Perhaps it's where you go to think, where you meet your friends, where you enjoy the view, or simply a corner of campus that makes you feel comfortable. Find your favorite spot and capture the little details that make it yours. It doesn't need to be famous or hidden; its meaning comes from the person who chooses it.",
+    "goal": "Find and photograph your favorite spot on campus, capturing the details that make it meaningful to you."
+  },
+  {
+    "id": "CH11",
+    "name": "Chasing the Sun",
+    "category": "Personal Photography · Light",
+    "description": "Capture the Sun shining in a way it doesn't usually. Find a rare moment when sunlight transforms an ordinary scene into something extraordinary.",
+    "goal": "Photograph sunlight appearing in an unusual or unexpected way."
+  },
+  {
+    "id": "CH12",
+    "name": "Where the Sea Glows",
+    "category": "Personal Photography · Summer",
+    "description": "Capture the glowing sea beneath a shining summer sky. Preserve the colors, reflections, and warmth of a moment that makes the water feel alive with light.",
+    "goal": "Capture a photograph of the sea glowing beneath a bright summer sky."
+  },
+  {
+    "id": "CH13",
+    "name": "A Normal Day, Something Unusual",
+    "category": "Personal Photography · Everyday Life",
+    "description": "Capture a completely normal day in your life — but find something unusual within it. It could be a little detail, an unexpected moment, or something that feels extraordinary to you, even if the world sees it as ordinary.",
+    "goal": "Photograph something unusual or meaningful within your everyday life."
+  },
+  {
+    "id": "CH14",
+    "name": "A Melody of Your Own",
+    "category": "Personal Expression · Music",
+    "description": "Capture something that represents your favorite song. It might be a place, a memory, a feeling, or a scene that reminds you why this melody means so much to you.",
+    "goal": "Create a photograph that represents your favorite song or what it means to you."
+  },
+  {
+    "id": "CH15",
+    "name": "Your Kind of Escape",
+    "category": "Personal Expression · Favorite Places",
+    "description": "Capture your favorite ride, your favorite destination, or the journey that makes you feel most like yourself. Whether it's the thrill of the road or the comfort of a familiar place, show us what makes it yours.",
+    "goal": "Photograph your favorite ride, destination, or journey in a way that expresses why it matters to you."
+  }
+]

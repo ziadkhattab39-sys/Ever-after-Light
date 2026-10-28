@@ -1,0 +1,71 @@
+[
+  {
+    "id": "HG01",
+    "name": "The FCIS Computer Lab View",
+    "description": "A computer lab on the third or fourth floor of the FCIS building, overlooking the surrounding agricultural fields. At sunset, the view transforms into a peaceful and memorable scene, revealing a beautiful side of campus that students might otherwise overlook.",
+    "riddles": [
+      {
+        "id": "A",
+        "style": "Atmospheric",
+        "text": "Where screens glow throughout the day, a different light steals the view away. Look beyond the work, where golden skies meet fields below."
+      },
+      {
+        "id": "B",
+        "style": "Observational",
+        "text": "Climb above the usual view, where rows of green stretch far from you. Find the room where code meets the colors of dusk."
+      },
+      {
+        "id": "C",
+        "style": "Mysterious",
+        "text": "I hold a thousand worlds behind a screen, yet my greatest picture needs no machine. Seek the place where the fields catch fire without a flame."
+      }
+    ]
+  },
+  {
+    "id": "HG02",
+    "name": "The Glasshouse Glow",
+    "description": "A greenhouse where nature and sunlight create a quiet spectacle. At sunrise and sunset, golden light catches the glass panels, turning the plants and reflections into a scene that feels almost enchanted. A hidden botanical corner of campus, reminiscent of a certain magical school's Herbology lessons.",
+    "riddles": [
+      {
+        "id": "A",
+        "style": "Herbology-inspired",
+        "text": "No mandrakes cry here, yet green things thrive. Find the glass-roofed haven where sunlight brings the garden alive. Perhaps your next Herbology lesson awaits."
+      },
+      {
+        "id": "B",
+        "style": "The Golden Glass",
+        "text": "When the sun sits low, I begin to glow. Through walls of glass, a little world of green waits below. Find me where golden light meets growing life."
+      },
+      {
+        "id": "C",
+        "style": "Magical & Mysterious",
+        "text": "A lesson in green, without a wand in sight. Seek the crystal walls that borrow the sunrise's light. Even a Hogwarts professor might pause here."
+      }
+    ]
+  },
+  {
+    "id": "HG03",
+    "name": "A Talent Yet to Bloom",
+    "description": "Through your journey, you've explored new places, encountered challenges, and discovered things you might never have noticed before. Perhaps this journey has awakened something within you — a passion waiting to be explored or a talent waiting to unfold. Capture your newest discovery, and let the world see what you've found within yourself.",
+    "riddles": [
+      {
+        "id": "A",
+        "style": "The Quiet Awakening",
+        "text": "Somewhere along the way, a spark was born. Perhaps in a moment you paused, a thought you followed, or a little thing you tried. It has no name yet, but it feels like yours. What are you searching for?",
+        "hint": "Sometimes, curiosity is the beginning of something beautiful."
+      },
+      {
+        "id": "B",
+        "style": "The Unwritten Chapter",
+        "text": "I may hide in the things you've never dared to try, in the ideas that visit you, or in the moments when time seems to disappear. I am not yet what you are, but what you might become. Where will you find me?",
+        "hint": "Look beyond what you already know about yourself."
+      },
+      {
+        "id": "C",
+        "style": "The Light Within",
+        "text": "You've chased the light, captured the unusual, and collected pieces of the world around you. But the last discovery was never waiting in a distant place. It has been waiting for you to notice it. What treasure remains to be found?",
+        "hint": "The final discovery isn't somewhere you need to travel."
+      }
+    ]
+  }
+]
